@@ -17,6 +17,21 @@ h1{
     font-size: 80px;
 }
 
+.available{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 650px;
+    color: blue;
+    float: left;
+    font-family: 'Roboto', sans-serif;
+}
+i{
+    padding-top: 5px;
+    padding-left: 15px;
+}
+
 .snow1, snow2{
     position: absolute;
     top: 0;
@@ -48,6 +63,20 @@ h1{
 @keyframes snowfall2 {
     100% {
         background-position: 50em o;
+    }
+    .available{
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 45px;
+        color: blue;
+        float: left;
+        font-family: 'Roboto', sans-serif;
+    }
+    i{
+        padding-top: 5px;
+        padding-left: 15px;
     }
 }
 
