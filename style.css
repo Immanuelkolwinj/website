@@ -1,0 +1,76 @@
+body{
+    background-image: url(bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    width: auto;
+}
+
+h1{
+    color: aqua;
+    margin-top: 250px;
+    margin-left: 500px;
+    font-family: 'Pacifico', cursive;
+    font-size: 80px;
+}
+
+.snow1, snow2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url("snow.png");
+    background-position: 0 0;
+}
+
+
+.snow1{
+    background-size: 70em;
+    animation: snowfall 30s linear infinite;
+}
+
+.snow2{
+    background-size: 50em;
+    animation: snowfall2 30s linear infinite;
+    opacity: 0.5;
+}
+
+@keyframes snowfall {
+    100% {
+        background-position: 70em 70em;
+    }
+}
+
+@keyframes snowfall2 {
+    100% {
+        background-position: 50em o;
+    }
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 567px) {
+    body{
+        background-image: url(bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        height: 100vh;
+        width: auto;
+    }
+    h1{
+        margin-top: 350px;
+        margin-left: 30px;
+        font-size: 45px;
+    }
+}
