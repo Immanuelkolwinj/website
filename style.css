@@ -102,4 +102,19 @@ i{
         margin-left: 30px;
         font-size: 45px;
     }
+
+    .available{
+        width: 200px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: white;
+        margin-left: 45px;
+        color: blue;
+        float: left;
+        font-family: 'Roboto', sans-serif;
+    }
+    i{
+        padding-top: 5px;
+        padding-left: 15px;
+    }
 }
