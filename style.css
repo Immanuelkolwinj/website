@@ -1,0 +1,24 @@
+body{
+    font-family: 'Switzer', sans-serif;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+h1{
+    font-family: 'Switzer', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    font-size: 50px;
+}
+
+h4{
+    font-weight: 400;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
